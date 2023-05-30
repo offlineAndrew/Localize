@@ -1,0 +1,736 @@
+/* COMMON */
+
+@font-face {
+    font-family: 'Graphik LC TT';
+    src: url(./Fonts/GraphikLC-Regular.woff);
+    
+    }
+@font-face {
+    font-family: 'Graphik LC Medium';
+    src: url(./Fonts/GraphikLCWeb-Medium.woff);
+}
+
+.container{
+    width: 1288px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+.header{
+    
+    height: 95px;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    
+}
+
+.header__wrapper{
+display: flex;
+justify-content: space-between;
+}
+
+.header__left{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+/* .header__img{
+    margin-right: 51px;
+} */
+
+.header__ul{
+    display: flex;
+    list-style-type:none;
+    justify-content: space-between;
+
+}
+
+.header__li{
+    margin-right: 57px;
+}
+
+ .header__menu-link{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+ }
+
+ .header__right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+
+ }
+
+ .header__btn1{
+    box-sizing: border-box;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 0px;
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: black;
+    margin-right: 10px;
+
+ }
+
+ .header__btn2{
+    box-sizing: border-box;
+    width: 120px;
+    border-radius: 0px;
+    background: #FF6336;
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+
+ }
+
+ /* PROMO */
+
+
+ .promo{
+    display: flex;
+    margin-top: 129px;
+    margin-bottom: 172px;
+
+ }
+
+.promo__left{
+    display: flex;
+    flex-direction: column;
+}
+
+.promo__title{
+font-family: 'Graphik LC TT';
+font-style: normal;
+font-weight: 600;
+font-size: 65px;
+line-height: 70px;
+color: black;
+}
+
+.promo__text{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: black;
+    margin-top: 51px;
+    width: 471px;
+}
+
+.promo__buttons{
+    display: flex;
+    margin-top: 51px;
+    margin-bottom: 25px;
+}
+
+.promo__btn1{
+    width: 160px;
+    margin-right: 10px;
+    background: #FF6336;
+    border-radius: 0px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo__btn2{
+    width: 160px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 0px;
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: black;
+}
+
+.promo__remark{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000;
+}
+
+.promo__right{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+/* CLIENTS */
+
+.clients{
+    background: #FF9C7D;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.clients__title{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+
+    text-align: center;
+    width: 720px;
+    margin-top: 108px;
+
+
+    color: #000000
+}
+.clients__card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 105px;
+}
+
+/* ADVANTAGES */
+
+.advantages{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages__sector{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 250px;
+
+}
+
+
+
+.advantages__sector-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 165px;
+    /* width: 40%; */
+}
+
+.advantages__sector-left-swap{
+    order: 1;
+    padding-left: 165px;
+    padding-right: 75px;
+}
+/* .advantages__sector-right{
+    
+    width: 60%;
+    /* margin-left: 167px; */
+ 
+
+.advantages__title{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000
+}
+
+.advantages__text{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000
+}
+
+.advantages__remark{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+
+/* SOLUTIONS */
+
+.solutions{
+    background-color: #FFF8E4;
+}
+
+.solutions__flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.solutions__title{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    padding-top: 120px;
+    padding-bottom: 58px;
+}
+
+
+
+.solutions__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 294px;
+    width: 330px;
+    margin-bottom: 150px;
+}
+
+.solutions__card-title{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.solutions__text{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* TARGET GROUP */
+
+.target-group{
+    margin-bottom: 100px;
+}
+
+.target-group__title{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    text-align: center;
+    margin-top: 154px;
+    margin-bottom: 75px;
+}
+
+.target-group__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.target-group__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 31px;
+
+}
+
+
+
+.target-group__card-title{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+
+}
+
+.target-group__card-text, target-group__card-remark{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.target-group__card-remark{
+    
+    text-decoration-line: underline;
+}
+
+
+/* FEEDBACK */
+
+.feedback{
+   background: #C9E8F2;
+   
+}
+
+.feedback__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 105px;
+    padding-top: 65px;
+}
+
+.feedback__left{
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback__text{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    width: 920px;
+    
+}
+
+.feedback__remark{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    
+}
+
+
+
+
+
+/* REVIEWS */
+.reviews{
+    width: 100%;
+    background: #DABC98;
+    height: 332px;
+    display: flex;
+    align-items: center;
+}
+
+.reviews__wrap{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.reviews__left{
+    width: 61%;
+}
+
+.reviews__right{
+    width: 39%;
+    border-left: 1px solid #000000;
+    height: 168px;
+}
+
+.reviews__p{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+    margin-left: 67px;
+}
+
+.reviews__text{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    
+    letter-spacing: 0.75px;
+    
+    color: #000000;   
+}
+
+.reviews__rating{
+    padding-top: 20px; 
+}
+
+.reviews__review1, .reviews__review2{
+    margin-left: 70px;
+}
+
+/* INTEGRATION */
+
+.integration{
+    margin: 100px 0 160px 0;
+}
+
+.integration__flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.integration__title{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #000000;
+    width: 791px;
+}
+
+.integration__text{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    width: 539px;
+    color: #000000;
+}
+
+.integration__btn{
+    background: #FF6336;
+    border-radius: 0px; 
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    padding: 0 20px;
+}
+
+
+/* OFFER */
+
+.offer{
+    background: #FF9C7D;
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+
+.offer__flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer__title{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+    width: 784px;
+}
+
+.offer__text{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.offer__btn{
+    background: #000000;
+    border-radius: 0px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+    padding: 0 20px;
+
+    margin-top: 24px;
+}
+
+/* FOOTER */
+
+/* CASE STUDIES */
+
+.footer{
+    background: #EEEEEE;
+}
+
+.case-studies{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0 160px 0;
+}
+
+.case-studies__left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 140px;
+}
+
+.case-studies__title{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.case-studies__img2{
+    width: 80px;
+    height: 32px;
+}
+
+.case-studies__text{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    width: 290px;
+}
+
+.case-studies__remark{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.case-studies__right{
+    display: flex;
+    justify-content: space-between;
+}
+.case-studies__card{
+    margin-right: 60px;
+}
+.case-studies__card-name{
+    font-family: 'Graphik LC Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.case_studies__card-point{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+}
+
+/* FOOTER BOTTOM */
+
+.bottom__flex{
+    border-top: 1px solid black;
+    height: 125px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__bottom-left{
+    display: flex;
+    align-items: center;
+}
+.footer__bottom-left-text{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-left: 14px;
+}
+
+.footer__bootom-right{
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.footer__bottom-right-text{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    
+}
+
+

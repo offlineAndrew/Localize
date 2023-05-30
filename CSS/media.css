@@ -1,0 +1,327 @@
+@media screen and (max-width: 520px) {
+  
+
+    .container {
+    width: auto;
+    /* padding: 0 10px; */
+    }
+    /* HEADER */
+    .header {
+    height: auto;
+    display: block;
+    }
+
+    .header__wrapper {
+    
+    flex-direction: column;
+    padding: 10px;
+    }
+.header__right {
+    
+    justify-content: center;
+
+}   
+.header__left {
+    
+flex-direction: column;   
+width: 100%;
+}
+
+.header__img{
+    text-align: center;
+}
+
+.header__ul {
+   
+    flex-wrap: wrap;
+}
+
+.header__li {
+    margin-right: 15px;
+
+}
+    
+.header__btn1, .header__btn2{ 
+width: 30%;
+font-size: 14px;
+line-height: 40px;
+}
+
+
+
+/* PROMO */
+
+.promo__flex{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promo{
+    margin: 20px 0;
+    display: block;
+}
+
+.promo__img{
+    max-width: 100%;
+}
+
+.promo__text{
+    width: auto;
+    margin-top: 0;
+}
+.promo__title {
+    font-weight: 400;
+    font-size: 65px;
+    
+}
+
+.promo__buttons{
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.promo__right{
+max-width: 100%;
+padding-top: 0;
+}
+
+.promo__btn1, .promo__btn2{
+    width: 30%;
+font-size: 14px;
+line-height: 40px;
+}
+
+/* CLIENTS */
+
+.clients__title{
+    width: auto;
+    font-size: 40px;
+    margin-top: 10px;
+    line-height:50px;
+}
+
+.clients__card-wrapper{
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 50px;
+    gap: 75px;
+
+}
+
+/* ADVANTAGES */
+
+.advantages{
+    margin-top: 0;
+}
+
+.advantages__sector{
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 0;
+
+}
+
+.advantages__sector-left{
+    padding-right: 0;
+}
+
+
+.adv__img{
+    max-width: 100%;
+}
+.advantages__sector-left-swap {
+    
+     padding-left: 0;
+
+     order: initial;
+    
+}
+
+/* SOLUTIONS */
+
+.solutions__title{
+    padding: 10px 0;
+}
+
+.solutions__card {
+margin-bottom: 50px;
+width: auto;
+}
+
+/* TARGET GROUP */
+
+.target-group{
+    margin-bottom: 0;
+}
+
+.target-group__title{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.target-group__wrapper {
+    flex-direction: column;
+}
+
+.target-group__card{
+    margin-right: 0;
+}
+.target-group__card-remark{
+    padding-bottom: 50px;
+}
+
+/* FEEDBACK */
+
+.feedback__flex{
+flex-direction: column;
+padding-top: 10px;
+}
+
+.feedback__text{
+    width: auto;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.feedback__img{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.feedback__img2{
+max-width: 100%;
+}
+
+.feedback__remark{
+    text-align: center;
+}
+
+/* REVIEWS */
+
+.reviews .container{
+    flex-direction: column;
+}
+
+.reviews{
+    height: auto;
+    padding: 20px 0;
+}
+
+.reviews__left{
+    flex-direction: column;
+    width: auto;
+    gap: 30px;
+}
+
+.reviews__right{
+    border: none;
+    height: auto;
+    width: auto;
+}
+
+.reviews__p{
+    margin-left: 0;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.reviews__review1, .reviews__review2 {
+    margin-left: 10px;
+    text-align: center;
+}
+.reviews__img{
+    max-width: 100%;
+}
+
+.reviews__wrap {
+    justify-content: center;
+}
+
+/* INTEGRATION */
+
+.integration{
+    margin: 10px 0;
+}
+
+.integration__title{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.integration__img{
+    max-width: 100%;
+}
+.integration__title, .integration__text{
+    width: auto;
+}
+.integration__flex{
+    gap: 50px;
+}
+
+.integration{
+    margin: 50px 0;
+}
+
+/* OFFER */
+
+.offer{
+padding: 20px 0;
+}
+
+.offer__title{
+    width: auto;
+    font-size: 50px;
+    line-height: 50px;
+}
+.offer__text{
+text-align: start;
+padding-left: 10px;
+}
+
+.offer__btn{
+margin-top: 0;
+line-height: 50px;
+}
+
+/* FOOTER */
+
+.case-studies{
+margin: 10px 0;
+flex-direction: column;
+}
+.footer__cs-img{
+    max-width: 100%;
+}
+
+.case-studies__right{
+    flex-direction: column;
+}
+.case-studies__left{
+    margin-right: 0;
+    align-items: center;
+}
+
+.case-studies__text{
+    width: auto;
+}
+
+.bottom__flex{
+    flex-direction: column;
+}
+
+.case-studies__card {
+    padding-left: 50px;
+    margin-right: 0;
+    
+}
+
+.bottom__flex{
+    padding-left: 20px;
+}
+
+
+}
